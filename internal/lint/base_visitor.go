@@ -23,9 +23,9 @@ package lint
 import (
 	"text/scanner"
 
+	"github.com/Berrserker/prototool/internal/file"
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/text"
 )
 
 var _ proto.Visitor = baseVisitor{}

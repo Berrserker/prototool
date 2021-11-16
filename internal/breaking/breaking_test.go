@@ -23,12 +23,12 @@ package breaking
 import (
 	"testing"
 
+	"github.com/Berrserker/prototool/internal/extract"
+	"github.com/Berrserker/prototool/internal/reflect"
+	"github.com/Berrserker/prototool/internal/settings"
+	ptesting "github.com/Berrserker/prototool/internal/testing"
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/stretchr/testify/require"
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/reflect"
-	"github.com/uber/prototool/internal/settings"
-	ptesting "github.com/uber/prototool/internal/testing"
-	"github.com/uber/prototool/internal/text"
 )
 
 func TestRunOne(t *testing.T) {

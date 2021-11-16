@@ -23,9 +23,9 @@ package lint
 import (
 	"strings"
 
+	"github.com/Berrserker/prototool/internal/strs"
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
 )
 
 var enumFieldPrefixesLinter = NewLinter(

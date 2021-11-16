@@ -23,11 +23,11 @@ package lint
 import (
 	"strings"
 
+	"github.com/Berrserker/prototool/internal/file"
+	"github.com/Berrserker/prototool/internal/strs"
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
 	"github.com/gobuffalo/flect"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/strs"
-	"github.com/uber/prototool/internal/text"
 )
 
 var serviceNamesNoPluralsLinter = NewSuppressableLinter(

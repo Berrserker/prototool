@@ -23,9 +23,9 @@ package lint
 import (
 	"strings"
 
+	"github.com/Berrserker/prototool/internal/text"
+	"github.com/Berrserker/prototool/internal/wkt"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/text"
-	"github.com/uber/prototool/internal/wkt"
 )
 
 // TODO: This will not detect things like "timestamp.proto" or "protobuf/timestamp.proto"

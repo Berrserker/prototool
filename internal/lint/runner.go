@@ -21,8 +21,8 @@
 package lint
 
 import (
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/text"
+	"github.com/Berrserker/prototool/internal/file"
+	"github.com/Berrserker/prototool/internal/text"
 	"go.uber.org/zap"
 )
 

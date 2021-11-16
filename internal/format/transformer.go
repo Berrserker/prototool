@@ -25,8 +25,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/text"
 	"go.uber.org/zap"
 )
 

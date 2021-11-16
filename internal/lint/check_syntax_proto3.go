@@ -23,8 +23,8 @@ package lint
 import (
 	"text/scanner"
 
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/text"
 )
 
 var syntaxProto3Linter = NewLinter(

@@ -21,8 +21,8 @@
 package lint
 
 import (
+	"github.com/Berrserker/prototool/internal/text"
 	"github.com/emicklei/proto"
-	"github.com/uber/prototool/internal/text"
 )
 
 var enumFieldsHaveSentenceCommentsLinter = NewLinter(

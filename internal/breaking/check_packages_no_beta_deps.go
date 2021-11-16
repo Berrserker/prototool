@@ -21,9 +21,9 @@
 package breaking
 
 import (
-	"github.com/uber/prototool/internal/extract"
-	"github.com/uber/prototool/internal/protostrs"
-	"github.com/uber/prototool/internal/text"
+	"github.com/Berrserker/prototool/internal/extract"
+	"github.com/Berrserker/prototool/internal/protostrs"
+	"github.com/Berrserker/prototool/internal/text"
 )
 
 func checkPackagesNoBetaDeps(addFailure func(*text.Failure), from *extract.PackageSet, to *extract.PackageSet) error {

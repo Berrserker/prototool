@@ -38,10 +38,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Berrserker/prototool/internal/file"
+	"github.com/Berrserker/prototool/internal/settings"
+	"github.com/Berrserker/prototool/internal/vars"
 	"github.com/gofrs/flock"
-	"github.com/uber/prototool/internal/file"
-	"github.com/uber/prototool/internal/settings"
-	"github.com/uber/prototool/internal/vars"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )
